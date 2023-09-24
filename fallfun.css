@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color:#F7D573
+}
+
+header {
+	background-image: url("realistic-fire-banner.jpg");
+	background-size:contain;
+	border: solid #E66124;
+	border-width: 4px;
+	padding: 1.5%;
+	color:#F7D573; 
+	font-size: 20px; 
+	font-size-adjust:auto; 
+}
+
+nav{
+	background: #040000;
+	font-size: 18px;
+	color:#F7D573; 
+	
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+	
+}
+nav li {
+	display: inline-block; 
+}
+
+	a:link{
+		color:#F7D573
+}
+	a:visited{
+		color:#AC0002
+}
+	a:hover{
+		color:#D85B21
+}
+
+div.factbox{ 
+ 	border: solid #E66124 4px; 
+	background-image: linear-gradient(to bottom, #e66124 0%, #000000 100%);
+	padding-bottom: 2.5%; /*OPEN TO CHANGE*/ 
+	margin-top: 2.5%; 
+	
+} 
+
+img {
+	float: left;
+	padding-left: 0%;
+	padding-right: 2%;
+	width: 155px; 
+	
+}
+
+p{
+	color:#F7D573;
+	font-size: 18px; ; 
+	font-size-adjust: auto
+}
